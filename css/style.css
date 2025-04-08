@@ -72,9 +72,14 @@ header img{
 }
 
 #roles{
+    transition: 0.3s;
     padding: 5px;
     border: 2px solid gray;
     border-radius: 10px;
     width: 200px;
     margin: auto;
+}
+
+#roles:hover{
+    transform: scale(1.1);
 }
